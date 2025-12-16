@@ -64,6 +64,13 @@ columns = [
 
 if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
     df = pd.read_csv(file_path)
+    csv = df.to_csv(index=False)
+    st.download_button(
+        label="Download CSV",
+        data=csv,
+        file_name='leads.csv',
+        mime='text/csv'
+    )
 else:
     df = pd.DataFrame(columns=columns)
 
@@ -113,3 +120,4 @@ st.download_button(
     file_name="lead_probability_output.csv",
     mime="text/csv"
 )
+
