@@ -4,6 +4,7 @@ This app helps business developers identify, enrich, and rank high-probability l
 
 ## 📊 Live Demo Output
 **Streamlit App:** [Click to Open](https://t4nya13-lead-probability-engine-demo-app-gpaidw.streamlit.app/)
+
 **Google Sheet Output:** [Example Sheet](https://docs.google.com/spreadsheets/d/1qe0V-DC1QxRNZnUlBxwFX9AtZiKbU0-S_z7pXYWzgy0/edit?usp=sharing)
 
 🏛️ High-Level Architecture
